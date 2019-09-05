@@ -16,8 +16,23 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+1st Band - Brown = 1
+2nd Band - Black = 0
+3rd Band- Multiplier - Brown = 10
+4th Band Tolerance can be one of a few things such as Gold or Silver
+
  
 **b. What do you have to do to light your LED?**
+
+Connect the one pin of the Push Button to 5V.
+Connect the other pin of the Push button (Switched with the first pin) to the positive leg of the LED.
+Connect the Negative leg of the LED to a resistor such as (220 Ohm).
+Connect the other leg of the resistor to the negative rail of the bread board.
+Connect the positive rail of the bread board to the 5V pin of the Arduino.
+Connect the negative rail of the bread board to the ground pin of the Arduino.
+Supply power to the Arduino and then while the button is pushed the LED is lit.
+
 
 
 ## Part C. Blink a LED using Arduino
@@ -26,13 +41,25 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+Did not have to change anything the example already used LED_BULTIN which was automatically detected and configured to the correct pin for the board.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+Change the values in the Delay() functions. In the example the top delay specifies how long the LED stays on for in milliseconds and the bottom one specifies how long it is off for.
+
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+You would put a resistor in series with the external LED.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
+I can see the LED blinking at 20 ms still but when it gets below 15ms i can no longer see it with the naked eye. But if you open your phones camera and look at the LED thru the camera you can clearly still see it blinking.
+
+
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
+
 
 
 ### 2. Blink your LED
@@ -46,12 +73,18 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+Yes, It glows the entire range becuase even with the potentiometer set max resistance combined with the 220 Ohm resistort there is still current in the circuit it is just very small but is enought to make the LED give off a faint visible light.  
+
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+I changed the LED pin from pin 9 to pin 11 on which my LED was connected. 
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
+The analogWrite() function writes a analog value which can be seen as a PWM wave to a pin. The digitalWrite() pin writes either High or Low to an output pin which is basicaly either giving it power or no power. So the digitalwrite can be used to turn on and of an LED where as the analowwrite can be used to fade an LED by usinng PWM.
 
 
 ## Part F. FRANKENLIGHT!!!
