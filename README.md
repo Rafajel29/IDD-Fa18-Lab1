@@ -4,7 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-![](images/Part_A_Breadboard)
+![](images/Part_A_Breadboard.jpg)
 
 
 
