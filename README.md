@@ -89,7 +89,7 @@ void loop() {
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+![https://youtu.be/AAdBxs8UqfY]
 
 
 ## Part D. Manually fade an LED
@@ -107,7 +107,7 @@ I changed the LED pin from pin 9 to pin 11 on which my LED was connected.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
-The analogWrite() function writes a analog value which can be seen as a PWM wave to a pin. The digitalWrite() pin writes either High or Low to an output pin which is basicaly either giving it power or no power. So the digitalwrite can be used to turn on and of an LED where as the analowwrite can be used to fade an LED by usinng PWM.
+The analogWrite() function writes a analog value which can be seen as a PWM wave to a pin. The digitalWrite() pin writes either High or Low to an output pin which is basicaly either 5V or GND. So the digitalwrite can be used to turn on and of an LED where as the analogwrite can be used to fade an LED by usinng PWM.
 
 
 ## Part F. FRANKENLIGHT!!!
