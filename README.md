@@ -89,7 +89,7 @@ void loop() {
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-![https://youtu.be/AAdBxs8UqfY]
+https://youtu.be/AAdBxs8UqfY
 
 
 ## Part D. Manually fade an LED
