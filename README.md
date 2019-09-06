@@ -53,7 +53,7 @@ I can see the LED blinking at 20 ms still but when it gets below 15ms i can no l
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-
+![](CodeSnips/Blink_on_board_my_way/Blink_on_board_my_way.ino)
 
 
 ### 2. Blink your LED
