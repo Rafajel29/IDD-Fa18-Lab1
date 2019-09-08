@@ -35,11 +35,11 @@ Supply power to the Arduino and then while the button is pushed the LED is lit.
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
-Did not have to change anything the example already used LED_BULTIN which was automatically detected and configured to the correct pin for the board. The following example code was used to blink the LED on the Arduino.
+Did not have to change anything the example already used LED_BULTIN which was automatically detected and configured to the correct pin for the onboard LED. To use an external LED we need to change the LED_BULTIN to the pin number of the pin that we wil use to control the LED for example pinMode(9, OUTPUT).
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
-Change the values in the Delay() functions. In the example the top delay specifies how long the LED stays on for in milliseconds and the bottom one specifies how long it is off for.
+Change the values in the Delay() functions. The delay() function tells the device to wait for the value given in miliseconds. In the example the top delay specifies how long the LED stays on for in milliseconds and the bottom one specifies how long it is off for.
 
 
 **c. What circuit element would you want to add to protect the board and external LED?**
@@ -107,7 +107,7 @@ Yes, It glows the entire range because even with the potentiometer set max resis
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
-I changed the LED pin from pin 9 to pin 11 on which my LED was connected. 
+I changed the LED pin from pin 9 to pin 11 on which my LED was connected. So I changed int led = 9; to int led = 11;  
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
