@@ -53,7 +53,9 @@ I can see the LED blinking at 20 ms still but when it gets below 15ms i can no l
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-![The arduino Code .ino file](https://github.com/Rafajel29/IDD-Fa18-Lab1/blob/master/CodeSnips/Blink_on_board_my_way/Blink_on_board_my_way.ino)
+The link to the arduino .ino file
+
+https://github.com/Rafajel29/IDD-Fa18-Lab1/blob/master/CodeSnips/Blink_on_board_my_way/Blink_on_board_my_way.ino
 
 ``` Arduino
 void setup() {
@@ -91,7 +93,7 @@ void loop() {
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-![Video of my LED blinking](https://youtu.be/AAdBxs8UqfY)
+https://youtu.be/AAdBxs8UqfY
 
 
 ## Part D. Manually fade an LED
@@ -142,7 +144,7 @@ I received the light in a completely disassembled and broken state with nothing 
 
 Video of the system working there are points where the lights go off when they should not this is due to the negative wire from the IC to the bread board being loose and not making good contact. The wire is just lying on the correct pad.
 
-![Video of my Frankenlight working](https://youtu.be/7ssZgibVroI)
+https://youtu.be/7ssZgibVroI
 
 The next picture is a schematic of my Frankenlight.
 
