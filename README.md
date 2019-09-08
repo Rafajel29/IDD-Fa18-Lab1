@@ -142,7 +142,7 @@ Video of the system working there are points where the lights go off when they s
 
 https://youtu.be/7ssZgibVroI
 
-The next picture is a schematic of Frankenlight.
+The next picture is a schematic of my Frankenlight.
 
 ![](images/FrankenLightSchematic.PNG)
 
