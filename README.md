@@ -93,6 +93,8 @@ void loop() {
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
+The link to the Video of my LED blinking.
+
 https://youtu.be/AAdBxs8UqfY
 
 
