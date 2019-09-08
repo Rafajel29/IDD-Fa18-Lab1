@@ -114,7 +114,7 @@ The analogWrite() function writes a analog value which can be seen as a PWM wave
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-![](images/Lab1.png)
+![](images/Lab1.PNG)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
