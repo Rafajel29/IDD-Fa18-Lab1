@@ -138,5 +138,25 @@ I recieved the light in a completly disasembled and broken state with nothing co
 
 ### 3. Build your light!
 
+Video of the system working there are points where the lights go off when they should not this is due to the negative wire from the IC to the bread board being loose and not making good contact. The wire is just laying on the correct pad.
+
 https://youtu.be/7ssZgibVroI
+
+The next picture is a schematic of Frankenlight.
+
+![](images/FrankenLightSchematic.PNG)
+
+The next image is of my total Frankenlight.
+
+![](images/Total.jpg)
+
+The next image is a close up of the Bread board part of the Frankenlight.
+
+![](images/Board_close.jpg)
+
+The next image is a close up of the LED board and the PCB with the IC on it.
+
+![](images/IC_Close.jpg)
+
+
 
