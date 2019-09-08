@@ -96,7 +96,7 @@ https://youtu.be/AAdBxs8UqfY
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
-Yes, It glows the entire range becuase even with the potentiometer set max resistance combined with the 220 Ohm resistort there is still current in the circuit it is just very small but is enought to make the LED give off a faint visible light.  
+Yes, It glows the entire range because even with the potentiometer set max resistance combined with the 220 Ohm resistor there is still current in the circuit it is just very small but is enough to make the LED give off a faint visible light.    
 
 
 ## Part E. Fade an LED using Arduino
@@ -107,7 +107,7 @@ I changed the LED pin from pin 9 to pin 11 on which my LED was connected.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
-The analogWrite() function writes a analog value which can be seen as a PWM wave to a pin. The digitalWrite() pin writes either High or Low to an output pin which is basicaly either 5V or GND. So the digitalwrite can be used to turn on and of an LED where as the analogwrite can be used to fade an LED by usinng PWM.
+The analogWrite() function writes a analog value which can be seen as a PWM wave to a pin. The digitalWrite() pin writes either High or Low to an output pin which is basically either 5V or GND. So the digitalwrite can be used to turn on and of an LED whereas the analogwrite can be used to fade an LED by using PWM.
 
 
 ## Part F. FRANKENLIGHT!!!
@@ -122,23 +122,23 @@ Yes, On the PCB there is a small IC. The IC checks for when the capacitance butt
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
-Yes there is a capacitance touch sensor. When you touch the sensor you change the capacitance value of the sensor and this value is monitored by the IC. So when there is a change in capacitance the IC knows that the sensor has been touched and thus to turn on or of the light.
+Yes, there is a capacitance touch sensor. When you touch the sensor, you change the capacitance value of the sensor and this value is monitored by the IC. So, when there is a change in capacitance the IC knows that the sensor has been touched and thus to turn on or of the light.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
-The system makes use of AA batteries. The system has a battery holder that houses 3 AA batteries in series. Since each batterie is 1.5V the system has an operational voltage of +-4.5V. There is no transformmation or regulation that happens in the system.
+The system makes use of AA batteries. The system has a battery holder that houses 3 AA batteries in series. Since each batterie is 1.5V the system has an operational voltage of +-4.5V. There is no transformation or regulation that happens in the system.
 
 **d. Is information stored in your device? Where? How?**
 
-There is no information stored in the system. Each time it loses power and power is then returned the light is in an off state which must be the default state of the IC in which it starts when recieving power.
+There is no information stored in the system. Each time it loses power and power is then returned the light is in an off state which must be the default state of the IC in which it starts when receiving power.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-I recieved the light in a completly disasembled and broken state with nothing connected anymore. It was thus hard and impractical to use the batteries and batterie housing. So after figuring out how the original light worked and which wire was which I firstly reconstructed the Orginal light using its components and giving it a 5V supply voltage from my bread board. I then proceeded to insert a potentiometer between the 5V power supply of the bread board and the IC. I then connected the output power from the IC back to the other sides rails of my bread board meaning that the capacitance touch sensor would turn on and of power to the other side power rail of my bread board. I then connected my own LED to the second power rail that recieves its power from the PCB. I connected my LEDs' positive leg to the positive side rail and then the negative leg to a resistors one leg and the other leg of the resistor to the negetive rail. I then had two jumper cbales inserted into the rail that i used to give power again to the ooriginal LED board from the light. I could then switch on and off the LED board as well as my own LED using the Capacitive touch sensor and by turning the potentiometer I could dimm and bright my LED and the LED boards lights.
+I received the light in a completely disassembled and broken state with nothing connected anymore. It was thus hard and impractical to use the batteries and batterie housing. So after figuring out how the original light worked and which wire was which I firstly reconstructed the Original light using its components and giving it a 5V supply voltage from my bread board. I then proceeded to insert a potentiometer between the 5V power supply of the bread board and the IC. I then connected the output power from the IC back to the other sides rails of my bread board meaning that the capacitance touch sensor would turn on and of power to the other side power rail of my bread board. I then connected my own LED to the second power rail that receives its power from the PCB. I connected my LEDs' positive leg to the positive side rail and then the negative leg to a resistors one leg and the other leg of the resistor to the negative rail. I then had two jumper cables inserted into the rail that i used to give power again to the original LED board from the light. I could then switch on and off the LED board as well as my own LED using the Capacitive touch sensor and by turning the potentiometer I could dim and bright my LED and the LED boards lights.
 
 ### 3. Build your light!
 
-Video of the system working there are points where the lights go off when they should not this is due to the negative wire from the IC to the bread board being loose and not making good contact. The wire is just laying on the correct pad.
+Video of the system working there are points where the lights go off when they should not this is due to the negative wire from the IC to the bread board being loose and not making good contact. The wire is just lying on the correct pad.
 
 https://youtu.be/7ssZgibVroI
 
